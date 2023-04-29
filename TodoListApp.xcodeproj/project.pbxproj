@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE54219E29EFB7B500BA5123 /* TodosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54219D29EFB7B500BA5123 /* TodosVC.swift */; };
+		FE85658529EFFC1C00F28F52 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85658429EFFC1C00F28F52 /* CalendarCell.swift */; };
+		FE85658729F0039900F28F52 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85658629F0039900F28F52 /* CalendarHelper.swift */; };
 		FEC1F07129ED3CBB00B6BCF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F07029ED3CBB00B6BCF8 /* AppDelegate.swift */; };
 		FEC1F07329ED3CBB00B6BCF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F07229ED3CBB00B6BCF8 /* SceneDelegate.swift */; };
 		FEC1F07529ED3CBB00B6BCF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F07429ED3CBB00B6BCF8 /* ViewController.swift */; };
 		FEC1F07829ED3CBB00B6BCF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC1F07629ED3CBB00B6BCF8 /* Main.storyboard */; };
 		FEC1F07A29ED3CBC00B6BCF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC1F07929ED3CBC00B6BCF8 /* Assets.xcassets */; };
 		FEC1F07D29ED3CBC00B6BCF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC1F07B29ED3CBC00B6BCF8 /* LaunchScreen.storyboard */; };
+		FEC1F08729ED3FA500B6BCF8 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1F08629ED3FA500B6BCF8 /* CalendarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE54219D29EFB7B500BA5123 /* TodosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosVC.swift; sourceTree = "<group>"; };
+		FE85658429EFFC1C00F28F52 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		FE85658629F0039900F28F52 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		FEC1F06D29ED3CBB00B6BCF8 /* TodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC1F07029ED3CBB00B6BCF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEC1F07229ED3CBB00B6BCF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		FEC1F07929ED3CBC00B6BCF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEC1F07C29ED3CBC00B6BCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEC1F07E29ED3CBC00B6BCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC1F08629ED3FA500B6BCF8 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		FEC1F06F29ED3CBB00B6BCF8 /* TodoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				FE85658429EFFC1C00F28F52 /* CalendarCell.swift */,
 				FEC1F07029ED3CBB00B6BCF8 /* AppDelegate.swift */,
 				FEC1F07229ED3CBB00B6BCF8 /* SceneDelegate.swift */,
 				FEC1F07429ED3CBB00B6BCF8 /* ViewController.swift */,
@@ -63,6 +72,9 @@
 				FEC1F07929ED3CBC00B6BCF8 /* Assets.xcassets */,
 				FEC1F07B29ED3CBC00B6BCF8 /* LaunchScreen.storyboard */,
 				FEC1F07E29ED3CBC00B6BCF8 /* Info.plist */,
+				FEC1F08629ED3FA500B6BCF8 /* CalendarVC.swift */,
+				FE54219D29EFB7B500BA5123 /* TodosVC.swift */,
+				FE85658629F0039900F28F52 /* CalendarHelper.swift */,
 			);
 			path = TodoListApp;
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC1F07529ED3CBB00B6BCF8 /* ViewController.swift in Sources */,
+				FE85658529EFFC1C00F28F52 /* CalendarCell.swift in Sources */,
 				FEC1F07129ED3CBB00B6BCF8 /* AppDelegate.swift in Sources */,
+				FEC1F08729ED3FA500B6BCF8 /* CalendarVC.swift in Sources */,
 				FEC1F07329ED3CBB00B6BCF8 /* SceneDelegate.swift in Sources */,
+				FE54219E29EFB7B500BA5123 /* TodosVC.swift in Sources */,
+				FE85658729F0039900F28F52 /* CalendarHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
